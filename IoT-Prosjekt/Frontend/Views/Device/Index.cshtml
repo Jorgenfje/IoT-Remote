@@ -1,0 +1,31 @@
+﻿@model List<Device>
+
+<h2 id="device-list-title">Liste over enheter</h2>
+<ul id="device-list">
+    @foreach (var device in Model)
+    {
+        <li class="device-item">@device.Name - @device.Paired
+
+            <form class="device-form" asp-action="UpdateDevice" method="post">
+
+                @if (device.Paired)
+                {
+                    <input type="hidden" name="id" value="@device.Id" />
+                    <input type="hidden" name="paired" value="false" />
+                    <button type="submit" class="btn btn-warning disconnect-btn" >Koble fra</button>
+                }
+
+                @if (device.Paired == false)
+                {
+                    <input type="hidden" name="id" value="@device.Id" />
+                    <input type="hidden" name="paired" value="true" />
+                    <button type="submit" class="btn btn-success connect-btn">Koble til</button>
+                }
+
+            </form>
+
+
+
+        </li>
+    }
+</ul>

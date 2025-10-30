@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Koble til WiFi</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <h1>Koble ESP32 til WiFi</h1>
+  <form id="wifiForm">
+    <label for="ssid">SSID:</label>
+    <input type="text" id="ssid" name="ssid" required>
+    <br><br>
+    <label for="password">Passord:</label>
+    <input type="password" id="password" name="password" required>
+    <br><br>
+    <button type="submit">Koble til WiFi</button>
+  </form>
+  <p id="response"></p>
+  
+  <script src="/script.js"></script>
+</body>
+</html>

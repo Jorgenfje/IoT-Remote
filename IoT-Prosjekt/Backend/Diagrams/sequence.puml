@@ -1,0 +1,32 @@
+@startuml
+actor GUI as "Fjernkontroll"
+participant Backend
+database Data as "Database/Json"
+
+GUI -> Backend: Registrer
+Backend -> Data: Sjekker database/json
+Data --> Backend: Ikke registrert
+Backend -> Data: Lagre denne fjernkontrollen
+Data --> Backend: Fjernkontroll lagret
+Backend --> GUI: Fjernkontroll opprettet + API-nøkkel
+
+== Registreringsforespørsel for allerede registrert fjernkontroll ==
+GUI -> Backend: Registrer
+Backend -> Data: Sjekker database/json
+Data --> Backend: Er registrert
+Backend --> GUI: Allerede registrert
+
+== Bruker API-Key ==
+GUI -> Backend: Sender API med Api-nøkkel
+Backend -> Data: Sjekker Api-nøkkelen
+Data --> Backend: Api-nøkkel er riktig
+Backend -> Data: Henter Device status
+Data --> Backend: Device status
+Backend --> GUI: Returnerer Device status
+
+== Styring av lys ==
+GUI -> Backend: Skru av/på lys
+Backend -> Data: Endrer status
+Data --> Backend: Status endret
+Backend --> GUI: Lys er av/på
+@enduml

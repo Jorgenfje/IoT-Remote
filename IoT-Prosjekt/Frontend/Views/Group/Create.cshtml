@@ -1,0 +1,27 @@
+﻿@model List<Group>
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<form id="form-create" asp-action="CreateGroup" method="post">
+    <div class="form-group">
+        <label for="GroupName">Gruppenavn</label>
+        <input type="text" class="form-control" id="GroupName" name="groupName" required/>
+    </div>
+
+    <div class="form-group">
+        <label for="DeviceId">Velg en enhet</label>
+        <select class="form-control" id="DeviceId" name="deviceId" required>
+            @foreach (var device in ViewBag.Devices as List<Device> ?? new List<Device>())
+            {
+                @if (device.Paired == true)
+                {
+                    <option value="@device.Id">@device.Name</option>
+                }
+            }
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Legg til</button>
+</form>

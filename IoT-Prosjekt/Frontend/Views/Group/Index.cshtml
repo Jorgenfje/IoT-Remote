@@ -1,0 +1,23 @@
+﻿<h2 id="group-list-title">Grupper</h2>
+
+<ul id="group-list">
+    @foreach (var group in Model)
+    {
+        <li class="group-item">
+            <div class="group-header">
+                <h2 class="group-name">@group.Name</h2>
+                <form class="group-edit-form" asp-action="Edit" method="post">
+                    <input type="hidden" name="groupId" value="@group.Id" />
+                    <button type="submit" class="btn btn-warning edit-group-btn">Rediger</button>
+                </form>
+            </div>
+
+            <ul class="device-list">
+                @foreach (var device in group.Devices)
+                {
+                    <li class="device-item">@device.Name</li>
+                }
+            </ul>
+        </li>
+    }
+</ul>

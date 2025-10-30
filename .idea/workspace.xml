@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="433921e3-f2c8-45e5-82e6-93827bd55dd8" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Arvoz&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Arvoz/Gruppe4_V2.git&quot;,
+    &quot;accountId&quot;: &quot;96006351-2a08-4ce7-8be4-42ef55c15db8&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/IoT-Prosjekt/Backend/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/IoT-Prosjekt/Frontend/Services/DeviceService.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/IoT-Prosjekt/Frontend/Services/GroupService.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/erlin/OneDrive/Dokumenter/GitHub/Gruppe4_V2/gui/SimpleGUIApp/UIComponents.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/erlin/OneDrive/Dokumenter/GitHub/Gruppe4_V2/gui/SimpleGUIApp/UIComponents.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/gui/SimpleGUIApp/UIComponents.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/erlin/OneDrive/Dokumenter/GitHub/Gruppe4_V2/gui/SimpleGUIApp/groups.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/erlin/OneDrive/Dokumenter/GitHub/Gruppe4_V2/gui/SimpleGUIApp/groups.json" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2oTmlPQSRFH9RtpeWo0E7WZH8gG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Executable.Backend.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Ny__Struktur&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="Backend" type="RunExe" factoryName=".NET Executable" singleton="false">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Backend/Backend/" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Backend" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="dotnet run" />
+      <method v="2">
+        <option name="Build Solution" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="433921e3-f2c8-45e5-82e6-93827bd55dd8" name="Changes" comment="" />
+      <created>1730902090936</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730902090936</updated>
+      <workItem from="1730902092206" duration="2722000" />
+      <workItem from="1731160941197" duration="57000" />
+      <workItem from="1731161006804" duration="17000" />
+    </task>
+    <task id="LOCAL-00001" summary="Frontend &#10;&#10;Endret https til http og lagt til _port.">
+      <option name="closed" value="true" />
+      <created>1730903285464</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730903285464</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Gui -&gt; Backend&#10;&#10;Det funker å skru av og på lys fra GUI" />
+    <MESSAGE value="Frontend &#10;&#10;Endret https til http og lagt til _port." />
+    <option name="LAST_COMMIT_MESSAGE" value="Frontend &#10;&#10;Endret https til http og lagt til _port." />
+  </component>
+</project>

@@ -1,0 +1,16 @@
+﻿@model Device
+
+@{
+    ViewData["Title"] = "Create Device";
+}
+
+<form asp-action="Create" method="post">
+
+    <div class="form-group">
+        <label for="DeviceName">Navn på enheten</label>
+        <input type="text" class="form-group" id="DeviceName" name="deviceName" required/>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Opprett</button>
+
+</form>

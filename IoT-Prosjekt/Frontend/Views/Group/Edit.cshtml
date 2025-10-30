@@ -1,0 +1,24 @@
+@model Group
+
+<div class="edit-group">
+    <h2>@Model.Name</h2>
+
+    <ul id="edit-list" class="device-list">
+        @foreach (var device in Model.Devices)
+        {
+            <li id="edit-item" class="device-item">
+                <h2>@device.Name<h2>
+                <form asp-action="RemoveDeviceFromGroup" method="post" class="form-remove-device">
+                    <input type="hidden" name="deviceId" value="@device.Id" />
+                    <input type="hidden" name="groupId" value="@Model.Id" />
+                    <button type="submit" class="btn btn-warning disconnect-btn">Fjern</button>
+                </form>
+            </li>
+        }
+    </ul>
+
+    <form asp-action="RemoveGroup" method="post" class="form-remove-group">
+        <input type="hidden" name="groupId" value="@Model.Id" />
+        <button type="submit" class="btn btn-danger">Slett gruppen</button>
+    </form>
+</div>
