@@ -26,7 +26,6 @@ Install the following SDKs before running the project:
 ### 2. Clone the repository
 
 git clone https://github.com/Jorgenfje/IoT-Remote.git
-cd IoT-Remote
 
 
 ### 3. Run the project
